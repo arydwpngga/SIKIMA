@@ -21,7 +21,7 @@
                     <a href="{{ url('/users') }}" class="nav-link text-white {{ request()->is('users') ? 'active' : '' }}">Pengguna</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Sertifikat</a>
+                    <a href="{{ url('/certificates') }}" class="nav-link text-white {{ request()->is('certificates') ? 'active' : '' }}">Sertifikat</a>
                 </li>
             </ul>
         </nav>
@@ -31,6 +31,7 @@
             <!-- Topbar -->
             <nav class="navbar navbar-light bg-light">
                 <div class="container-fluid">
+                    <span class="navbar-brand">Sistem Informasi Kegiatan Mahasiswa</span>
                     <ul class="nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Profile</a>
