@@ -3,7 +3,7 @@
 @section('title', 'HomePage')
 
 @section('content')
-    <h1>Event</h1>
+    <h1>HOME</h1>
 
     <!-- Tabel -->
     <div class="container my-4">
